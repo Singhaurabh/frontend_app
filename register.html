@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="source.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="module" src="register.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form">
+            <h2>Register</h2>
+            
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="Confirm your password">
+            </div>
+
+            <button type="submit" class="login-btn">Register</button>
+            
+            <div class="social-login">
+                <div class="social-btn google">
+                    <i class="fab fa-google"></i>
+                    <span>Sign up with Google</span>
+                </div>
+                <div class="social-btn facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Sign up with Facebook</span>
+                </div>
+            </div>
+            
+            <div class="signup-link">
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
